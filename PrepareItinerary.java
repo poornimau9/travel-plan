@@ -10,7 +10,7 @@ import java.net.URL;
 import java.util.*;
 
 public class PrepareItinerary {
-    private final static String CITY_FILE_URL = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4be05480-e7fc-4b41-b642-fb26dcaa4c39/cities.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210623%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210623T053621Z&X-Amz-Expires=86400&X-Amz-Signature=6c50a82da7a260025d339b75e779ac67ad494a786f375a91e52434ef02ba7df7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22cities.json%22";
+    private final static String CITY_FILE_URL = ""; //location of cities.json
     private final static String CONTINENT_KEY = "contId";
     public static final String LOCATION = "location";
     public static final String LATITUDE = "lat";
